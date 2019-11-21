@@ -28,7 +28,7 @@
   1.系统设计之初未有自动化打包、部署、日志跟踪，使用ANT、Maven、Docker、Kibana、Rancher集成实现大大提高运维工作效率、节约成本、降低重复工作中的错误率。
   2.预约系统中出现重号、死锁、号超出边界等问题；设计号池概念固定各项目号源边界+使用Redis+前端/中台限流的方式解决上述问题。
   3.数据量大+统计公式复杂度增加不断挑战报表效率每况愈下；采用XXLJOB对复杂的运算提前运算使用时间换速度的方式来解决。
-* 技术栈: Tomcat、Spring MVC、SpringCloud、Mybatis、Redis、Swagger、Nginx、 Docker、XXLJOB、Kibana、Rancher、HA、Jenkins、Maven、keepalived+virtual IP 、帆软等。
+* 技术栈: Tomcat、Spring MVC、SpringCloud、Mybatis、Redis、Swagger、Nginx、 Docker、XXLJOB、Kibana、Rancher、HA、Jenkins、Maven、KeepaLived+Virtual IP 、帆软等。
 * 平台荣誉成果：平台已成功上线服务于400+医护工作人员，服务于每日1W+人次的患者流量使用，并获得国家软件著作专利权，系统已满足国家2级医院系统评级标准。
 ## 飞天联合（北京）系统技术有限公司（ 2015年12月 ~ 2017年11月 ）
 ### 硬件设备监控系统 
